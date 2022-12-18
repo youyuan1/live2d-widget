@@ -16,7 +16,6 @@ function loadWidget(config) {
     setTimeout(() => {
         document.getElementById("waifu").style.bottom = 0;
         document.getElementById("waifu").style.left = '100px';
-        document.getElementById("waifu").style.zIndex = '100';
     }, 0);
 
     (function registerTools() {
