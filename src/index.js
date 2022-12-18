@@ -15,6 +15,8 @@ function loadWidget(config) {
     // https://stackoverflow.com/questions/24148403/trigger-css-transition-on-appended-element
     setTimeout(() => {
         document.getElementById("waifu").style.bottom = 0;
+        document.getElementById("waifu").style.left = '100px';
+        document.getElementById("waifu").style.zIndex = '100';
     }, 0);
 
     (function registerTools() {
