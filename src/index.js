@@ -159,6 +159,7 @@ function initWidget(config, apiPath) {
             document.getElementById("waifu").style.display = "";
             setTimeout(() => {
                 document.getElementById("waifu").style.bottom = 0;
+                document.getElementById("waifu").style.left = '100px';
             }, 0);
         }
     });
